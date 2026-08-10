@@ -34,7 +34,7 @@ jobs:
         uses: actions/checkout@v6
       - uses: actions/download-artifact@v8
         with:
-          name: skim
+          name: skim6.32.04-ubuntu24.04
       - name: install XRootD client
         run: apt-get update && apt-get install -y xrootd-client
       - name: skim
